@@ -1,0 +1,29 @@
+.wrapper{
+    width:100%;
+    max-width:900px;
+    margin: 0 auto;
+}
+.fc{
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    flex-flow:row;
+    justify-content: flex-end;/*main axis */
+    align-items: center;/*cross axis */
+    height:600px; 
+}
+.box{
+    height: 100px;
+    flex: 0 0 100px;
+    
+}
+.one{
+    background-color: red;
+    
+}
+.two{
+    background-color:purple;
+}
+.three{
+    background-color:pink;
+}

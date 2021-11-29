@@ -1,0 +1,66 @@
+body{
+    background-color: #eee;
+}
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+nav{
+    background-color: #333;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    padding:10px;
+    display: block;
+    color: #fff;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #555;
+}
+
+
+
+.fb{
+    background-image: url(valencia-spain-march-05-2017-260nw-593204357.jpg);
+    background-size: 80%;
+}
+.ig{
+    background-image: url(photo-1611262588024-d12430b98920.jpg);
+    background-size: 80%;
+}
+.social a{
+    text-indent: -10000px;
+}
+nav ul.social{
+    flex: 1 1 0;
+    display: flex;
+}
+nav ul.social li{
+    flex: 1 1 0;
+}
+.social{
+    max-width: 115px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px){
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+    }
+    nav li{
+        flex:1 1 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .social{
+        margin: 0;
+    }
+}
